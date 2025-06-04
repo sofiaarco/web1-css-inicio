@@ -1,0 +1,62 @@
+/* Estilos para la página web */
+body {
+    background-color: #faa6fdd0;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #fc4ab2fd;
+}
+
+.encabezado {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.parrafo {
+    text-align: justify;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+#fondo {
+    background-color: #ffa6e9;
+    /* modificar el color a elección */
+}
+p a {  
+    color: #a50f61;  
+    text-decoration: none;
+    }
+    
+    .propiedad-font-size{
+        font-size: 30px;
+    }
+    .propiedad-font-weight{
+        font-weight:300
+    }
+    .propiedad-font-style{
+        font-style: italic;
+    }
+    .propiedad-font-family{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .propiedad-text-align
+    {
+        text-align: center;
+    }
+    .propiedad-text-decoration{
+        text-decoration: underline;
+    }
+    .propiedad-text-transform{
+        text-transform: lowercase;
+    }
+    .propiedad-letter-spacing{
+        letter-spacing: 0.5em;
+    }
+    .propiedad-line-height{
+        line-height: 1.em;
+    }
+

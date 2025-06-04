@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .container {
+            display: flex;
+            /*se aplica la propiedad display al contenedor para que sea FLEX, es decir,que los elementos se alinean en una sola fil*/
+            flex-direction: row;
+            /*cambia la direccion entre row(fila) o column(columna)*/
+            justify-content: center;
+            /*es la forma que se  distribuye los items a lo largo del eje principal:valores
+            center,flex-end,flex-start,space-between,space-around
+            */
+            height: 250px;
+            background-color: rgb(175, 166, 236);
+            align-items: center; /*controla la alineacion de los items en el eje secundario*/
+            gap:10px;/* define el espacio entre los items flex dentro del contenedor*/
+        }
+
+        .item {
+            background-color: darkslateblue;
+            width: 150px;
+            border: 2px solid black padding
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--flexbox es un modelo de diseño de css-->
+    <div class="container">
+        <!--item flex-->
+        <div class="item">hamburguesa</div>
+        <!--item flex-->
+        <div class="item">pepsi</div>
+        <!--item flex-->
+        <div class="item">papas fritas</div>
+    </div>
+</body>
+
+</html>
