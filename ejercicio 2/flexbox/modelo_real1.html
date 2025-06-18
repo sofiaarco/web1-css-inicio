@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelo 1</title>
+    <style>
+        .container {
+            /*aca el container se convierte en un contenedor flexible(se usa display:flex;).Ademas esta usando cierta propiedad(gap)para poder separar y modificar al contenedor. */
+            display: flex;
+            gap: 50px;
+        }
+
+        .item {
+            /*aca el item que tambien es flexible(display:flex;) esta usando tres propiedades. El width modifica el ancho; gap separa las cajas y align-items alinea los items.*/
+            display: flex;
+            width: 300px;
+            gap: 25px;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">
+
+            <div><img src="/estilos/assets/img/camion.png" alt="" width="30px"></div>
+            <div>Envios a todo el pais y retiro por sucursales Andreani </div>
+        </div>
+
+        <div class="item">
+            <div> <img src="/estilos/assets/img/billetera.png" alt="" width="30px"></div>
+            <div>paga con dos targetas de credito o debito </div>
+
+
+        </div>
+
+        <div class="item">
+            <div> <img src="/estilos/assets/img/ubicaciones.png" alt="" width="30px"></div>
+            <div>Retira gratis en 2 horas en nuestros flagship stores </div>
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>
